@@ -16,7 +16,7 @@ message(STATUS "Compiling with C++ standard: ${CMAKE_CXX_STANDARD}")
 
 
 option(MAIN_TEST "Test" ON)
-option(UNIT_TEST "Test" OFF)
+option(UNIT_TEST "Test" ON)
 
 ## Включите подпроекты.
 #
