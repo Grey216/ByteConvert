@@ -11,6 +11,6 @@ add_executable(UnitTest "TestConvert.cpp"   "MockSink.h" "MockSource.h")
 target_link_libraries(UnitTest PRIVATE ByteConvert gtest gtest_main gmock gmock_main)
 
 
-#add_test(GTest UnitTest)
+
 include(GoogleTest)
 gtest_discover_tests(UnitTest)
