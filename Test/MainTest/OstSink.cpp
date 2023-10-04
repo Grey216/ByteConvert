@@ -1,6 +1,10 @@
 #include "OstSink.h"
 
+OstSink::OstSink(ostream& a) : ostream_(a) {};
+
 void OstSink::writeString(const string& str)
 {
-	cout << str << endl;
+	ostream_ << str << endl;
 }
+
+
